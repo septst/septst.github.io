@@ -1,0 +1,15 @@
+<h1>1. Binary Gap</h1>
+
+<code>
+    using System;
+    using System.Linq;
+
+    class Solution {
+        public int solution(int N) {
+            return Convert.ToString(N, 2)
+                                .Trim('0')
+                                .Split('1')
+                                .Max(b => b.Length);
+        }
+    }
+</code>
