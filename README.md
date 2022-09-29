@@ -1,7 +1,7 @@
 # ParthSekar.github.io
 
 
-```
+```mermaid
 sequenceDiagram
 Int Test->>+Azure Service Bus: Configures ReceiveEndpoint for CreateFileRequestResolved
 Int Test->>+Azure Service Bus: Publishes CreateFileRequestSent
